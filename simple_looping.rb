@@ -23,3 +23,11 @@ def while_iterator(number)
     start += 1
   end
 end
+
+def until_iterator(number)
+  start = 0
+  until start = number
+    puts "Welcome to Flatiron School's Web Development Course!"
+  start += 1
+end
+end

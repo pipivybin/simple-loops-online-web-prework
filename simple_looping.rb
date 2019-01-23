@@ -33,8 +33,7 @@ end
 end
 
 def for_iterator(number)
-
-  for element in number
+  for element in 1..number
     puts "Welcome to Flatiron School's Web Development Course!"
   end
 end
